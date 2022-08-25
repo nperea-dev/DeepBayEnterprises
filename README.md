@@ -1,6 +1,6 @@
 # DeepBayEnterprises      Equipo: Workgroup ciclo 3 DS
 
-este es el repositorio para desarrolar el ciclo 3 del programa mision tic 2022
+## modelo UML desarrollado por Andres Toro
 
 
 ![logo_mtic](modeloUmlAndres.jpg)
