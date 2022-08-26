@@ -7,10 +7,10 @@ public class MovimientoDinero {
     private double UsuarioQueRegistraMovimiento;
 
     public MovimientoDinero(double montoMovimiento, double montosPositivosyNegativos, double conceptoMovimiento, double usuarioQueRegistraMovimiento) {
-        MontoMovimiento = montoMovimiento;
-        MontosPositivosyNegativos = montosPositivosyNegativos;
-        ConceptoMovimiento = conceptoMovimiento;
-        UsuarioQueRegistraMovimiento = usuarioQueRegistraMovimiento;
+        this.MontoMovimiento = montoMovimiento;
+        this.MontosPositivosyNegativos = montosPositivosyNegativos;
+        this.ConceptoMovimiento = conceptoMovimiento;
+        this.UsuarioQueRegistraMovimiento = usuarioQueRegistraMovimiento;
     }
 
     public double getMontoMovimiento() {
@@ -45,3 +45,6 @@ public class MovimientoDinero {
         UsuarioQueRegistraMovimiento = usuarioQueRegistraMovimiento;
     }
 }
+
+
+
