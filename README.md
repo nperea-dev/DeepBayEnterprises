@@ -3,4 +3,4 @@
 ## modelo UML desarrollado por Andres Toro
 
 
-![logo_mtic](modeloUmlAndres.jpg)
+![logo_mtic](Spring2.png)
