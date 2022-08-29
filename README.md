@@ -3,6 +3,6 @@
 ## modelo UML desarrollado por Allison Pinedo
 
 
-![logo_mtic](allison.jpg)
+![logo_mtic](uml.png)
 
 
