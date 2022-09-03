@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/about")
+@RequestMapping("/grupo")
+
 public class about {
     @GetMapping
     public String about() {

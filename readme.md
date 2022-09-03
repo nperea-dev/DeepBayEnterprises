@@ -8,10 +8,9 @@ en el puerto 8080.
 
 desde el navegador tenemos dos rutas 
 
-* localhost:8080/saludo
 
-* localhost:8080/about
+* localhost:8080
 
-
+* localhost:8080/grupo
 
 **lo estamos logrando!**
