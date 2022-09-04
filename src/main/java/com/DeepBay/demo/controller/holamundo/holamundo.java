@@ -19,6 +19,9 @@ public class holamundo {
                 "\n" +
                 "<h3 style=\"color:blue;\">Workgroup Ciclo 3 Ds.</h3>\n" +
                 "\n" +
+
+                "<a href=\"/grupo\"><h2>conócenos</h2></a>\n" +
+
                 "</body>\n" +
                 "</html>\n ";
     }

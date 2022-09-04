@@ -17,6 +17,7 @@ public class about {
                 "\n" +
                 "<h2 style=\"color:red;\">Workgroup Ciclo 3 Ds.</h2>\n" +
                 "\n" +
+                "<p style=\"font-size:50px\">&#128516; &#128516; &#128516; &#128516; &#128516;</p>\n" +
                 "<h3 style=\"color:blue;\">Andres, Allison, Cindy, Ney, Zaymon </h3>\n" +
                 "\n" +
                 "</body>\n" +
