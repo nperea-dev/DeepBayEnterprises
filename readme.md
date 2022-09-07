@@ -13,4 +13,6 @@ desde el navegador tenemos dos rutas
 
 * localhost:8080/grupo
 
+se añade un link debajo para pasar directo a localhost:808/grupo
+
 **lo estamos logrando!**
