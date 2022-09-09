@@ -1,10 +1,23 @@
-package com.example.demo.entidades;
+package com.DeepBay.demo.Entities;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name="movimiento_dinero")
 public class MovimientoDinero {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long id;
+    @Column(name ="monto_mov")
     private double MontoMovimiento;
+    @Column(name ="monto_positivo_negativo")
     private double MontosPositivosyNegativos;
+    @Column(name ="concepto_mov")
     private double ConceptoMovimiento;
+    @Column(name ="responsable_movimiento")
     private double UsuarioQueRegistraMovimiento;
+
+    public MovimientoDinero() {}
 
     public MovimientoDinero(double montoMovimiento, double montosPositivosyNegativos, double conceptoMovimiento, double usuarioQueRegistraMovimiento) {
         this.MontoMovimiento = montoMovimiento;
