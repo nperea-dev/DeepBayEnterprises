@@ -1,15 +1,26 @@
 package com.DeepBay.demo.Entities;
 
 import javax.persistence.*;
-
+import java.util.List;
 
 
 @Entity
 @Table(name="empresa")
 public class Empresa {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    @Column(name = "id_empresa")
+    private Long idEmpresa;
+
+    public Long getIdEmpresa() {
+        return idEmpresa;
+    }
+
+    public void setIdEmpresa(Long idEmpresa) {
+        this.idEmpresa = idEmpresa;
+    }
+
     @Column(name ="nombre_empresa")
     private String nombreEmpresa;
     @Column(name ="direccion_empresa")
@@ -18,6 +29,13 @@ public class Empresa {
     private String telefonoEmpresa;
     @Column(name ="nit_empresa")
     private String nitEmpresa;
+
+    @OneToMany(mappedBy = "empresaDb")
+    public List <Empleado> empleadoDb ;
+
+
+
+
 
     public Empresa(){}
 
