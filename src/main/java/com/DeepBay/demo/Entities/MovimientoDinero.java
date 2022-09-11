@@ -17,8 +17,10 @@ public class MovimientoDinero {
     @Column(name ="responsable_movimiento")
     private double UsuarioQueRegistraMovimiento;
 
+    //metodos
+    //  metodo vacio
     public MovimientoDinero() {}
-
+    //  metodo parametrizado
     public MovimientoDinero(double montoMovimiento, double montosPositivosyNegativos, double conceptoMovimiento, double usuarioQueRegistraMovimiento) {
         this.MontoMovimiento = montoMovimiento;
         this.MontosPositivosyNegativos = montosPositivosyNegativos;

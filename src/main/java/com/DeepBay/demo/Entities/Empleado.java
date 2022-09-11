@@ -34,6 +34,8 @@ public class Empleado {
     @ManyToOne
     @JoinColumn(name="id_empresa", insertable = false, updatable = false)
     private Empresa empresaDb;
+    // metodos
+    //  metodo vacio
     public Empleado(){}
     public Empleado(String nombreEmpleado, String correoEmpleado, String empresaEmpleado, String rolEmpleado) {
         this.NombreEmpleado = nombreEmpleado;

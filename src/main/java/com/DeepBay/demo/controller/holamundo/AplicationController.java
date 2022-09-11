@@ -1,12 +1,19 @@
 package com.DeepBay.demo.controller.holamundo;
 
 
+import com.DeepBay.demo.Entities.Empleado;
+import com.DeepBay.demo.Services.EmpleadoService;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 
-
 public class AplicationController {
+
+    EmpleadoService service;
+
+
     @GetMapping("/")
     public String decitHola() {
         return "<html>\n" +
@@ -25,6 +32,21 @@ public class AplicationController {
     }
 
 
+    @GetMapping("/grupo")
+    public String about() {
+        return "<html>\n" +
+                "<body>\n" +
+                "\n" +
+                "<h2 style=\"color:red;\">Workgroup Ciclo 3 Ds.</h2>\n" +
+                "\n" +
+                "<p style=\"font-size:50px\">&#128516; &#128516; &#128516; &#128516; &#128516;</p>\n" +
+                "<h3 style=\"color:blue;\">Andres, Allison, Cindy, Ney, Zaymon </h3>\n" +
+                "\n" +
+                "</body>\n" +
+                "</html>\n ";
+    }
+
+  /*
 
     @GetMapping("/enterprises")
     public String Getenterprises() {
@@ -37,26 +59,11 @@ public class AplicationController {
     }
 
 
-   /* @GetMapping(/enterprises/[id])
+  @GetMapping(/enterprises/[id])
     @PatchMapping(/enterprises/[id])
     @DeleteMapping(/enterprises/[id])*/
 
 
-
-    @RequestMapping("/grupo")
-    @GetMapping
-        public String about() {
-        return "<html>\n" +
-                "<body>\n" +
-                "\n" +
-                "<h2 style=\"color:red;\">Workgroup Ciclo 3 Ds.</h2>\n" +
-                "\n" +
-                "<p style=\"font-size:50px\">&#128516; &#128516; &#128516; &#128516; &#128516;</p>\n" +
-                "<h3 style=\"color:blue;\">Andres, Allison, Cindy, Ney, Zaymon </h3>\n" +
-                "\n" +
-                "</body>\n" +
-                "</html>\n ";
-    }
 
 
 
